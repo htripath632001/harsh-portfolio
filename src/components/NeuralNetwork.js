@@ -250,7 +250,8 @@ const NeuralNetwork = () => {
 
         {/* Caption at bottom */}
         <text x="400" y="520" className="fill-white text-sm" textAnchor="middle">
-          Figure 1: TripathiNet - An Interactive Neural Network Portfolio Architecture
+        <tspan x="400" y="520">Figure 1: TripathiNet - An Interactive Neural Network Portfolio Architecture</tspan>
+        <tspan x="400" dy="1.2em">Click on each node to learn more !</tspan>
         </text>
         
         {Object.values(nodes).map((node) => {
